@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:4000",
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md",
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "test-results/test-output-[hash].xml"
+  },
+  "chromeWebSecurity": false
+}
